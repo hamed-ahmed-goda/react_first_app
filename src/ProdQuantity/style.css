@@ -1,0 +1,13 @@
+
+button {
+    padding: 8px 10px;
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+}
+span{
+    padding: 8px 20px;
+}
