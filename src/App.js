@@ -5,6 +5,12 @@ import FunctionalProps from './FunctionalProps/FunctionalProps';
 import ClassProps from './ClassProps/ClassProps';
 import Login from './Login/Login';
 import ProdQuatity from './ProdQuantity/ProdQuantity';
+import ContextOne from './ContextData/ContextOne/ContextOne';
+import { UserProvider } from './ContextData/ContextData';
+import Products from './Products/Products';
+import GetPosts from './GetPosts/GetPosts';
+import PostListPosts from './PostListPosts/PostListPosts';
+import FormWrapper from './UserForm/SwichBetween';
 
 function App() {
   const bio = {
@@ -32,7 +38,19 @@ function App() {
       {/* Q-three */}
       {/* <Login/> */}
       {/* Q-four */}
-      <ProdQuatity/>
+      {/* <ProdQuatity/> */}
+      {/* *******lab 3******* */}
+      {/* Q-one */}
+      {/* <Products /> */}
+      {/* Q-Two */}
+      <FormWrapper/>
+      {/* Q-three */}
+      {/* <UserProvider value="hello hamed from Context">
+        <ContextOne/>
+      </UserProvider> */}
+      {/* Q-four */}
+      {/* <GetPosts /> */}
+      {/* <PostListPosts/> */}
 
     </div>
     
